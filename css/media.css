@@ -10,10 +10,10 @@
 
     /* -------------------- CUSTOMERS -------------------- */
 
-    .margin-customers {
-        margin-right: 16px;
+    /* .margin-customers {
+        margin-bottom: 56px;
     }
-    
+     */
 }
 
 
@@ -23,6 +23,21 @@
 @media screen and (min-width:768px){
     .container {
         max-width: 768px;
+    }
+
+    /* -------------------- HERO --------------------*/
+
+    .hero {
+        max-width: 768px;
+    }
+
+    .title-hero {
+        font-size: 56px;
+        line-height: 1.07;
+    }
+
+    .hero-button {
+        margin-top: 36px;
     }
 
     /* -------------------- ABOUT --------------------*/
@@ -47,7 +62,7 @@
     }
     
     .margin-about {
-        margin-bottom: 72px;
+        margin-bottom: 48px;
     }
 
 
@@ -77,14 +92,14 @@
     }
 
     .margin-team {
-        margin-bottom: 64px;
+        margin-bottom: 40px;
     }
 
 
     /* -------------------- CUSTOMERS --------------------*/
    
     .customers-list {
-            gap: 0x;
+            gap: 24px;
     }
 
      .customers-item {
@@ -93,11 +108,11 @@
     } 
 
      .margin-customers {
-        margin-right: 0;
+        margin-bottom: 0;
     }
 
     .margin-tablet-customers {
-        margin-right: 24px;
+        margin-bottom: 48px;
     } 
 }
 
@@ -110,6 +125,17 @@
         padding: 0 15px;
             margin: 0 auto;
     }
+
+    /* -------------------- HERO --------------------*/
+
+    .hero {
+        max-width: 1158px;
+    }
+
+    .hero-button {
+        margin-top: 48px;
+    }
+
 
     /* -------------------- ABOUT --------------------*/
     .icon-main-about {  
@@ -165,9 +191,9 @@
         padding-bottom: 120px;
     }
 
-    .customers-list {
+    /* .customers-list {
         gap: 24px;
-}
+} */
 
     .customers-item {
         width: 168px;
