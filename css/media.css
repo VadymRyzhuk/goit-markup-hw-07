@@ -4,17 +4,30 @@
         max-width: 428px;
     }
    
-    /* .margin-customers {
-        margin-right: 16px;
-    } */
-
-    /* -------------------- CUSTOMERS -------------------- */
-
-    /* .margin-customers {
-        margin-bottom: 56px;
+   
+    .mobile-menu {
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        width: 100vw;
+        height: 100vh;
+        background-color: var(--white-color);
+        padding: 24px 24px 40px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow: auto;
     }
-     */
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -235,9 +248,14 @@
         margin-bottom: 40px;
     }
 
-
+   
     /* -------------------- CUSTOMERS --------------------*/
    
+    .customers>.container {
+        max-width: 584px;
+    }
+    
+
     .customers-list {
             gap: 24px;
     }
@@ -254,8 +272,47 @@
     .margin-tablet-customers {
         margin-bottom: 48px;
     } 
+
+    .logo-text-footer {
+        margin-bottom: 48px;
+    }
+
+
+/* -------------------- FOOTER --------------------*/
+
+.footer>.container {
+    max-width: 584px;
 }
 
+
+.footer-container {
+    align-items: normal;
+    flex-direction: row;
+    flex-wrap: wrap;
+gap: 24px;
+
+}
+
+.logo-text-footer {
+    align-items: normal;
+}
+
+.social-container-footer  {
+    align-items: normal;
+}
+
+.footer-subscribe-text {
+    text-align: left;
+}
+.form-sub-footer {
+flex-direction: row;
+}
+
+.footer-input {
+    width: 264px;
+}
+
+}
 
 
 
@@ -265,7 +322,7 @@
     .container {
         max-width: 1158px;
         padding: 0 15px;
-            margin: 0 auto;
+        margin: 0 auto;
     }
 
     .menu-open-btn {
@@ -276,9 +333,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 40px;
-     
-}
+    gap: 40px;}
+
+
 
     /* -------------------- HERO --------------------*/
 
@@ -299,6 +356,7 @@
       .hero {
            background-image: /*linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),  */
           url(../images/hero-bg-2x.jpg);
+    }
     }
 
     .hero-button {
@@ -333,13 +391,13 @@
 
     /* --------------------------- What are we doing --------------------------- */
 
-.what-we-do {
+    .what-we-do {
     display: flex;
     padding-bottom: 120px;
     padding-top: 60px;
-}
+    }
 
-.what-title {
+    .what-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -348,18 +406,18 @@
     text-transform: capitalize;
     color: var(--navy-blue-color);
     margin-bottom: 72px;
-}
+    }
 
-.what-list {
+    .what-list {
     display: flex;
     gap: 24px;
     justify-content: center;
-}
+    }
 
-.item-what {
+    .item-what {
     /* width: calc((100%-48px)/3); */
     width: 100%;
-}
+    }
 
 
     /* -------------------- OUR TEAM -------------------- */
@@ -380,6 +438,10 @@
 
     /* -------------------- CUSTOMERS --------------------*/
 
+    .customers>.container {
+        max-width: 1200px;
+    }
+
     .customers {
         padding-top: 120px;
         padding-bottom: 120px;
@@ -399,4 +461,29 @@
     .margin-tablet-customers {
         margin-right: 0;
     } 
+
+
+    /* -------------------- FOOTER --------------------*/
+
+    .footer>.container {
+        max-width: 1158px;
+    }
+    .footer-container {
+        /* justify-content: center; */
+    }
+
+.logo-text-footer {
+    margin-bottom: 0px;
+    margin-right: 120px;
+}
+
+.social-container-footer {
+    margin-bottom: 0px;
+    
+}
+
+.container-subcribe {
+    margin-left: auto;
+}
+
 }
