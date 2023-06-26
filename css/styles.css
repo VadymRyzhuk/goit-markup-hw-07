@@ -116,6 +116,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 }
 
 
+
 /* ----------- MOBILE MENU ----------- */
 
 .menu-open-btn {
@@ -228,7 +229,7 @@ gap: 56px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-width: 428px;
+    /* max-width: 428px; */
     margin: 0 auto;
     /* max-width: 1440px; */
 }
@@ -1299,6 +1300,8 @@ font-weight: 400;
     color: var(--white-color);
 /* margin-right: 20px; */
 padding-left: 16px;
+
+max-width: 264px;
 
 }
 
